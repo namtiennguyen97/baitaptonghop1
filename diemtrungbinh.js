@@ -1,0 +1,11 @@
+let vatly = Number (prompt('Nhập điểm vật lý: '));
+let hoahoc =Number (prompt("Nhập điểm hóa học: "));
+let  sinhhoc = Number(prompt("Nhập điểm sinh học: "));
+let trungbinh = (vatly + hoahoc + sinhhoc)/ 3;
+document.write("Điểm vật lý là: " + vatly);
+document.write("</br>");
+document.write("Điểm hóa học: "+ hoahoc);
+document.write("</br>");
+document.write("Điểm sinh học: "+ sinhhoc);
+document.write("</br>");
+document.write("Điểm trung bình ba môn là: " + trungbinh);
